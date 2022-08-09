@@ -1,0 +1,148 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+color: #737373;
+line-height: 1.5;
+font-size: 1rem;
+}
+.wrap {
+    max-width: 1080px; /*ширина*/
+    min-width: 320px; /* минимальная ширина*/
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px; /*30 сверху вниз 15 справа слева*/
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-link li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav-link a{
+    color:  #252B42;
+}
+.nav-link a:hover {
+color: #FA4A0C;
+}
+.download__wrap {
+    background: url(images/bg-app.png) center no-repeat;
+    background-size: cover;
+    padding: 75px 0 145px 0;
+    
+}
+.download {
+ color: #fff;
+ text-align: center;
+}
+.download-txt {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+.download-title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+.download-subtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 60px;
+}
+.btn {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+}
+.btn--red {
+   border-color: #FA4A0C;
+   background: #FA4A0C;
+}
+.workapp__wrap {
+   padding: 50px 0;
+}
+.partitle {
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    margin-bottom: 80px;
+}
+.workapp--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.workapp-img {
+width: 47%;
+text-align: center;
+}
+.workapp__txt {
+width: 50%;
+}
+.workapp__txt h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    color: #FA4A0C;
+    margin-bottom: 20px;
+}
+.workapp__txt h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: #252B42;
+    margin-bottom: 30px;
+}
+.workapp__txt p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.375em;
+    
+}
+.workapp--item:nth-child(2n){
+   flex-direction: column-reverse;
+}
+.workapp--item:last-child{
+    margin-bottom: 0;
+}
+.footer__wrap {
+    padding: 70px 0;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5C5C5C;
+    font-size: 0.75rem;
+    font-weight: 700;
+} 
